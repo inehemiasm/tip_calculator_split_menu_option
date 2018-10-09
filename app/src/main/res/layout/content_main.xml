@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:padding="@dimen/nice_padding"
+    android:useDefaultMargins="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_row="0"
+        android:background="#0adef1"
+        android:ems="12"
+        android:hint="ENTER AMOUNT"
+        android:inputType="numberDecimal"
+        android:maxLength="7"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_BillAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="0"
+        android:background="#7cb3d3"
+        android:hint="ENTER AMOUNT"
+        android:labelFor="@+id/editText_BillAmount"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/percentage"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:layout_gravity="end"
+        android:layout_row="1"
+        android:hint="%"
+        android:text="@string/percentage"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginBottom="@dimen/nicer_margin"
+        android:layout_row="1"
+        android:max="30"
+        android:progress="0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="205dp"
+        android:layout_height="40dp"
+        android:layout_column="1"
+        android:layout_row="5"
+        android:text="How many to split?"
+        android:textSize="22sp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="86dp"
+        android:layout_height="40dp"
+        android:layout_column="1"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginBottom="@dimen/nice_margin"
+        android:layout_marginStart="@dimen/start_margin"
+        android:layout_row="5"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:layout_gravity="end"
+        android:layout_row="2"
+        android:text="Tip"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tipAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginBottom="@dimen/nice_margin"
+        android:layout_marginStart="@dimen/start_margin"
+        android:layout_row="2"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="@dimen/nice_padding"
+        android:text="0.00"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:layout_gravity="end"
+        android:layout_row="3"
+        android:text="Total"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/totalAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginBottom="@dimen/nice_margin"
+        android:layout_marginStart="@dimen/start_margin"
+        android:layout_row="3"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="@dimen/nice_padding"
+        android:text="Bill Amount"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/perPersonTotal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_row="6"
+        android:text="Each Pay"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/pptAmount"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:layout_gravity="right"
+        android:layout_marginBottom="@dimen/nice_margin"
+        android:layout_marginStart="@dimen/start_margin"
+        android:layout_row="6"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="@dimen/nice_padding"
+        android:text="Bill Amount"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/roundingOptionText"
+        android:layout_width="224dp"
+        android:layout_height="48dp"
+        android:layout_column="1"
+        android:layout_row="4"
+        android:text="Round Up?"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_column="1"
+        android:layout_gravity="right"
+        android:layout_row="4"
+        >
+
+        <RadioButton
+            android:id="@+id/noButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onRadioButtonClicked"
+            android:text="NO" />
+
+        <RadioButton
+            android:id="@+id/totalButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onRadioButtonClicked"
+            android:text="Total" />
+
+        <RadioButton
+            android:id="@+id/tipBtton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onRadioButtonClicked"
+            android:text="Tip Only" />
+    </RadioGroup>
+
+</GridLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nice_margin" />
+    <dimen name="nice_padding" />
+    <dimen name="small_margin" />
+    <dimen name="nicer_margin" />
+    <dimen name="start_margin" />
+</resources>

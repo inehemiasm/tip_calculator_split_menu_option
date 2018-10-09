@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mini Project 4</string>
+    <string name="action_settings">Settings</string>
+    <string name="round" />
+    <string name="percentage" />
+    <string name="text_for_spinner" />
+    <string name="tip" />
+    <string name="info_message">Select number of people using spinner to split the tip among friends. If you choose the tip option it will round up the tip.
+        If you choose the total option it will round up the total</string>
+    <string name="info_title" >info</string>
+    <string name="positive_button" />
+    <string name="Share" />
+    <string name="info" />
+</resources>
