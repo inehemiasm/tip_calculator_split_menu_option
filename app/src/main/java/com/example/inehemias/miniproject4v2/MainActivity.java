@@ -127,7 +127,11 @@ public class MainActivity extends AppCompatActivity implements TextWatcher, Seek
 
         if (amountInput.getText().toString().isEmpty()) {
             setTexts(0,0, 0);
+            billAmount = 0; tip = 0; total = 0; ppt = 0;
             textViewAmount.setText(currencyFormat.format(billAmount));
+
+
+
             return;
         }
         else{
