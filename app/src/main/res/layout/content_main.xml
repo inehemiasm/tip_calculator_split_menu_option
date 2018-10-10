@@ -34,7 +34,7 @@
         android:layout_columnSpan="2"
         android:layout_gravity="fill_horizontal"
         android:layout_row="0"
-        android:background="#7cb3d3"
+        android:background="?android:attr/colorMultiSelectHighlight"
         android:gravity="bottom|center_vertical|center_horizontal|start"
         android:hint="ENTER AMOUNT"
         android:labelFor="@+id/editText_BillAmount"
@@ -166,7 +166,7 @@
         android:layout_row="6"
         android:background="@android:color/holo_blue_dark"
         android:padding="@dimen/nice_padding"
-        android:text="Bill Amount"
+        android:text="Split Amount"
         android:textAlignment="center"
         android:textSize="24sp" />
 
