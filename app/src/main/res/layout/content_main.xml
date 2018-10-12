@@ -20,7 +20,7 @@
         android:layout_row="0"
         android:background="#0adef1"
         android:ems="12"
-        android:hint="ENTER AMOUNT"
+        android:hint="@string/enter_amount"
         android:inputType="numberDecimal"
         android:maxLength="7"
         android:textSize="26sp"
@@ -36,7 +36,7 @@
         android:layout_row="0"
         android:background="?android:attr/colorMultiSelectHighlight"
         android:gravity="bottom|center_vertical|center_horizontal|start"
-        android:hint="ENTER AMOUNT"
+        android:hint="@string/enter_amount"
         android:labelFor="@+id/editText_BillAmount"
         android:textAlignment="center"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
@@ -52,7 +52,7 @@
         android:layout_columnSpan="1"
         android:layout_gravity="end"
         android:layout_row="1"
-        android:hint="%"
+        android:hint="0%"
         android:text="@string/percentage"
         android:textSize="18sp" />
 
@@ -74,7 +74,7 @@
         android:layout_height="40dp"
         android:layout_column="1"
         android:layout_row="5"
-        android:text="How many to split?"
+        android:text="@string/how_many_to_split"
         android:textSize="22sp" />
 
     <Spinner
@@ -97,7 +97,7 @@
         android:layout_columnSpan="1"
         android:layout_gravity="end"
         android:layout_row="2"
-        android:text="Tip"
+        android:text="@string/tip2"
         android:textSize="18sp" />
 
     <TextView
@@ -139,7 +139,7 @@
         android:layout_row="3"
         android:background="@android:color/holo_blue_dark"
         android:padding="@dimen/nice_padding"
-        android:text="Bill Amount"
+        android:text="@string/bill_amount"
         android:textAlignment="center"
         android:textSize="24sp" />
 
@@ -150,7 +150,7 @@
         android:layout_column="0"
         android:layout_columnSpan="2"
         android:layout_row="6"
-        android:text="Each Pay"
+        android:text="@string/each_pay"
         android:textAlignment="center"
         android:textSize="24sp" />
 
@@ -166,7 +166,7 @@
         android:layout_row="6"
         android:background="@android:color/holo_blue_dark"
         android:padding="@dimen/nice_padding"
-        android:text="Split Amount"
+        android:text="@string/split_amount"
         android:textAlignment="center"
         android:textSize="24sp" />
 
@@ -176,7 +176,7 @@
         android:layout_height="48dp"
         android:layout_column="1"
         android:layout_row="4"
-        android:text="Round Up?"
+        android:text="@string/round_up"
         android:textSize="18sp" />
 
     <RadioGroup
@@ -209,7 +209,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onRadioButtonClicked"
-            android:text="Tip Only" />
+            android:text="@string/tip_only" />
     </RadioGroup>
 
 </GridLayout>

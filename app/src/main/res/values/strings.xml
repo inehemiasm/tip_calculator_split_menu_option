@@ -11,4 +11,12 @@
     <string name="positive_button" />
     <string name="Share" />
     <string name="info" />
+    <string name="how_many_to_split">How many to split?</string>
+    <string name="enter_amount">ENTER AMOUNT</string>
+    <string name="bill_amount">Bill Amount</string>
+    <string name="each_pay">Each Pay</string>
+    <string name="split_amount">Split Amount</string>
+    <string name="tip_only">Tip Only</string>
+    <string name="round_up">Round Up?</string>
+    <string name="tip2">Tip</string>
 </resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <string name="how_many_to_split">Dividir en Cuantos?</string>
+    <string name="enter_amount">Escriba el Total</string>
+    <string name="bill_amount">Total del Bill</string>
+    <string name="each_pay">Cada Uno Paga</string>
+
+    <string name="app_name">Calculadora de Propina</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="round" />
+    <string name="percentage" />
+    <string name="text_for_spinner" />
+    <string name="tip" >Propina</string>
+    <string name="info_message">Selecciona en cuantos quiren dividir el total.
+                                Tambien pueden redondear el total y la propina.
+                                Tienen la opcion de enviar la informacion por sms.
+    </string>
+    <string name="info_title" >info</string>
+    <string name="positive_button"/>
+    <string name="Share"> Compartir</string>
+    <string name="info">Informacion</string>
+    <string name="split_amount">Cuenta Divida</string>
+    <string name="tip_only">Propina</string>
+    <string name="round_up">Redorndiar Arriva?</string>
+    <string name="tip2">Propina</string>
+</resources>
